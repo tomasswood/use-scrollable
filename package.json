@@ -1,0 +1,40 @@
+{
+  "name": "use-scrollable",
+  "version": "1.0.0",
+  "description": "A react hook for turning an element into a horizontal or vertical scrollable element.",
+  "scripts": {
+    "build:prod": "yarn run webpack --env.mode production",
+    "build:dev": "yarn run webpack --env.mode development"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:tomasswood/use-scrollable.git",
+  "author": "Thomas Wood <tom@thomaswood.me.com>",
+  "keywords": [
+    "react",
+    "hooks",
+    "hook",
+    "react-hook",
+    "react-hooks",
+    "scrollable",
+    "useScrollable",
+    "scrollable-hook",
+    "react-scrollable"
+  ],
+  "contributors": [
+    "Thomas Wood <tom@thomaswood.me.com>"
+  ],
+  "license": "Apache-2.0",
+  "private": false,
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.1",
+    "react": "^16.8.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
